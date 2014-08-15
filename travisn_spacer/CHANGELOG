@@ -1,0 +1,8 @@
+1.3 - fixed css spelling error
+      changed from div ID to div class and css to suit
+
+1.2 - fixed css file path bug 
+
+1.1 - Converted to from Block to Package
+
+1.0 - Initial Release

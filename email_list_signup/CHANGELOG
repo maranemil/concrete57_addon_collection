@@ -1,0 +1,5 @@
+1.5.5 - Verified 5.5 compatibility; added French translation (thanks cali); cleaned up the edit window (and made the "display messages in" option clearer).
+1.03 - Signup Confirmation page is now excluded from nav by default.
+1.02 - Fixed problem with version numbers so dashboard doesn't keep showing that an update is available
+1.01 - Fixed bug where successful submissions redirected to the home page, not the page that the block is on. Also added more helpful database error messages when site is in Development mode.
+1.0 - Initial Release
