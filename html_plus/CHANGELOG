@@ -1,0 +1,11 @@
+0.9.0 - HTML Plus published
+0.9.1 - Changed htmlentities(...) to h(...)
+0.9.2 - 
+Fixed missing t(...) functions
+Insert link now adds page name rather than ID
+Reduced editors default size
+improved editor re-size handling
+1.0.0 -
+Published add-on
+Removed static height on-load
+1.0.1 - Added self closing tags on void elements to validate on XHTML sites
