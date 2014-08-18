@@ -19,3 +19,7 @@ concrete57_addon_collection
 
 ##### HTML List
 * http://www.concrete5.org/marketplace/addons/list/
+* 
+
+##### Tumblr Feed
+* http://www.concrete5.org/marketplace/addons/tumblr-feed/
