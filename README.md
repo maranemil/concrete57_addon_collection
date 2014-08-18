@@ -12,3 +12,10 @@ concrete57_addon_collection
 
 ##### package_starting_point
 * https://github.com/skybluesofa/concrete57_base_package
+
+
+##### HTML Plus
+* http://www.concrete5.org/marketplace/addons/html-plus/
+
+##### HTML List
+* http://www.concrete5.org/marketplace/addons/list/
