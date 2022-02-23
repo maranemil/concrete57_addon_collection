@@ -2,34 +2,35 @@
 }
 
 #tumblrentry a img {
-	border-style: none;
+    border-style: none;
 }
 
 .tumblrentry-main-title {
 }
 
 .tumblrentry-post {
-	text-align: justify;
-	padding: 2% 4%;
+    text-align: justify;
+    padding: 2% 4%;
 }
+
 .tumblrentry-topborder {
-	border-top-width: 2px;
-	border-top-color: gray;
-	border-top-style: dotted;
+    border-top-width: 2px;
+    border-top-color: gray;
+    border-top-style: dotted;
 }
 
 .tumblrentry-pagination {
-	text-align: right;
+    text-align: right;
 }
 
 .tumblrentry-type-title {
-	font-size: 110%;
-	font-weight: bold;
+    font-size: 110%;
+    font-weight: bold;
 }
 
 .tumblrentry-title {
-	font-weight: bold;
-	font-size: 150%;
+    font-weight: bold;
+    font-size: 150%;
 }
 
 .tumblrentry-link {
@@ -45,7 +46,7 @@
 }
 
 .tumblrentry-photo {
-	text-align: center;
+    text-align: center;
 }
 
 .tumblrentry-caption {
@@ -61,8 +62,8 @@
 }
 
 .tumblrentry-error {
-	font-size: 120%;
-	font-weight: bold;
-	color: #b20000;
+    font-size: 120%;
+    font-weight: bold;
+    color: #b20000;
 }
 

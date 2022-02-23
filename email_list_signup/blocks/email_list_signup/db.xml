@@ -1,17 +1,22 @@
 <?xml version="1.0"?>
 <schema version="0.3">
 
-	<table name="btEmailListSignup">
-		<field name="bID" type="I"><KEY /><UNSIGNED /></field>
-		<field name="labelText" type="X" />
-		<field name="inFieldText" type="X" />
-		<field name="submitButtonText" type="X" />
-		<field name="submitErrorHeaderMsg" type="X" />
-		<field name="submitSuccessMsg" type="X" />
-		<field name="displayMsgInBlock" type="L"><DEFAULT value="0" /></field>
-		<field name="confirmationEmailFrom" type="C" size="255" />
-		<field name="confirmationEmailSubject" type="C" size="255" />
-		<field name="confirmationSuccessMsg" type="X" />
-	</table>
+    <table name="btEmailListSignup">
+        <field name="bID" type="I">
+            <KEY/>
+            <UNSIGNED/>
+        </field>
+        <field name="labelText" type="X"/>
+        <field name="inFieldText" type="X"/>
+        <field name="submitButtonText" type="X"/>
+        <field name="submitErrorHeaderMsg" type="X"/>
+        <field name="submitSuccessMsg" type="X"/>
+        <field name="displayMsgInBlock" type="L">
+            <DEFAULT value="0"/>
+        </field>
+        <field name="confirmationEmailFrom" type="C" size="255"/>
+        <field name="confirmationEmailSubject" type="C" size="255"/>
+        <field name="confirmationSuccessMsg" type="X"/>
+    </table>
 
 </schema>

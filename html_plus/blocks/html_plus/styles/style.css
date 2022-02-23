@@ -1,52 +1,52 @@
 /* Block styles - no need to edit these */
 
-.ui-dialog-content{
-	/* Remove the dialog scrollbars as codemirror handles it's own overflow*/
-	overflow:hidden !important;
+.ui-dialog-content {
+    /* Remove the dialog scrollbars as codemirror handles it's own overflow*/
+    overflow: hidden !important;
 }
 
-#htmlEditor-opts{
-	padding:3px 0;
-	background-color:#ffffff;
-	clear:both;
+#htmlEditor-opts {
+    padding: 3px 0;
+    background-color: #ffffff;
+    clear: both;
 }
 
-#htmlEditor-container{
-	height:auto;
-	width:100%;
-	clear:both;
+#htmlEditor-container {
+    height: auto;
+    width: 100%;
+    clear: both;
 }
 
-.ccm-summary-selected-item{
-	border:none !important;
-	margin:0px !important;
-	padding:0px !important;
+.ccm-summary-selected-item {
+    border: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
 }
 
-.html-element-group{
-	display:inline-block;
-	border:1px solid #dddddd;
-	border-radius:4px;
-	padding:5px;
-	margin:3px;
+.html-element-group {
+    display: inline-block;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 3px;
 }
 
-a.html-element, a.ccm-sitemap-select-page, a.wrap-toggle{
-	text-decoration:none;
-	color: #ffffff;
-	background-color: #3a87ad;
-	display:inline-block;
-	cursor: pointer;
-	font-size:11.844px;
-	border-radius:3px;
-	font-weight:bold;
-	text-align:center;
-	padding: 0 4px;
-	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-	margin:2px;
+a.html-element, a.ccm-sitemap-select-page, a.wrap-toggle {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #3a87ad;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 12px;
+    border-radius: 3px;
+    font-weight: bold;
+    text-align: center;
+    padding: 0 4px;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    margin: 2px;
 }
 
-a.html-element:hover, a.ccm-sitemap-select-page:hover, a.wrap-toggle:hover{
-	text-decoration:none;
-	opacity:0.4;
+a.html-element:hover, a.ccm-sitemap-select-page:hover, a.wrap-toggle:hover {
+    text-decoration: none;
+    opacity: 0.4;
 }

@@ -2,34 +2,35 @@
 }
 
 #tumblrfeed a img {
-	border-style: none;
+    border-style: none;
 }
 
 .tumblrfeed-main-title {
 }
 
 .tumblrfeed-post {
-	text-align: justify;
-	padding: 2% 4%;
+    text-align: justify;
+    padding: 2% 4%;
 }
+
 .tumblrfeed-topborder {
-	border-top-width: 2px;
-	border-top-color: gray;
-	border-top-style: dotted;
+    border-top-width: 2px;
+    border-top-color: gray;
+    border-top-style: dotted;
 }
 
 .tumblrfeed-pagination {
-	text-align: right;
+    text-align: right;
 }
 
 .tumblrfeed-type-title {
-	font-size: 110%;
-	font-weight: bold;
+    font-size: 110%;
+    font-weight: bold;
 }
 
 .tumblrfeed-title {
-	font-weight: bold;
-	font-size: 150%;
+    font-weight: bold;
+    font-size: 150%;
 }
 
 .tumblrfeed-link {
@@ -45,7 +46,7 @@
 }
 
 .tumblrfeed-photo {
-	text-align: center;
+    text-align: center;
 }
 
 .tumblrfeed-caption {
@@ -61,11 +62,11 @@
 }
 
 .tumblrfeed-error {
-	font-size: 120%;
-	font-weight: bold;
-	color: #b20000;
+    font-size: 120%;
+    font-weight: bold;
+    color: #b20000;
 }
 
 .tumblrfeed-read-entry {
-	text-align: right;
+    text-align: right;
 }

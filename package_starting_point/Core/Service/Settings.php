@@ -1,4 +1,7 @@
-<?php
+<?php /** @noinspection PhpUnnecessaryLocalVariableInspection */
+/** @noinspection PhpUndefinedClassInspection */
+
+/** @noinspection PhpUndefinedNamespaceInspection */
 
 namespace Concrete\Package\PackageStartingPoint\Core\Service;
 
@@ -6,7 +9,7 @@ use Concrete\Core\Foundation\Object;
 use Concrete\Core\Database\Database;
 
 class Settings extends Object {
-	static function get($handle=null) {
+	public static function get($handle=null) {
 		/*
 		 * An example of adding a listener that is triggered when a
 		 * page is updated.
@@ -16,12 +19,12 @@ class Settings extends Object {
 			$sql = "SELECT * FROM aoPackageStartingPointSettings WHERE handle=?";
 			$values = array($handle);
 			return $database->getArray($sql,$values);
-		} else {
-			$sql = "SELECT * FROM aoPackageStartingPointSettings WHERE 1=1";
-			return $database->getArray($sql);
 		}
-	}	
-	static function set($handle=null, $value=null) {
+
+        $sql = "SELECT * FROM aoPackageStartingPointSettings WHERE 1=1";
+        return $database->getArray($sql);
+    }
+	public static function set($handle=null, $value=null) {
 		/*
 		 * An example of adding a listener that is triggered when a
 		 * page is updated.
@@ -32,8 +35,8 @@ class Settings extends Object {
 			$values = array($value, $handle);
 			$database->execute($sql,$values);
 			return $value;
-		} else {
-			return false;
 		}
-	}	
+
+        return false;
+    }
 }

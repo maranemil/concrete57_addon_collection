@@ -1,6 +1,12 @@
-<?php
+<?php /** @noinspection PhpUnused */
+/** @noinspection PhpUndefinedFunctionInspection */
+/** @noinspection AutoloadingIssuesInspection */
+/** @noinspection PhpUndefinedNamespaceInspection */
+
+/** @noinspection PhpUndefinedClassInspection */
 
 namespace Concrete\Package\TravisnSpacer;
+
 use Package;
 use BlockType;
 use SinglePage;
@@ -29,24 +35,28 @@ use View;
 
 defined('C5_EXECUTE') or die(_("Access Denied."));
 
-class Controller extends Package {
+class Controller extends Package
+{
 
-	protected $pkgHandle = 'travisn_spacer';
-	protected $appVersionRequired = '5.2.0';
-	protected $pkgVersion = '1.3';
-	
-	public function getPackageDescription() {
-		return t("Add spacers to your webpage without editing code.");
-	}
-	
-	public function getPackageName() {
-		return t("tnSpacer");
-	}
-	
-	public function install() {
-		$pkg = parent::install();
-		// install block		
-		BlockType::installBlockTypeFromPackage('travisn_spacer', $pkg);
-	}
+    protected $pkgHandle          = 'travisn_spacer';
+    protected $appVersionRequired = '5.2.0';
+    protected $pkgVersion         = '1.3';
+
+    public function getPackageDescription()
+    {
+        return t("Add spacers to your webpage without editing code.");
+    }
+
+    public function getPackageName()
+    {
+        return t("tnSpacer");
+    }
+
+    public function install()
+    {
+        $pkg = parent::install();
+        // install block
+        BlockType::installBlockTypeFromPackage('travisn_spacer', $pkg);
+    }
 
 }

@@ -1,50 +1,50 @@
 <?xml version="1.0"?>
 <schema version="0.3">
-	<table name="btTumblrFeed">
-		<field name="bID" type="I">
-			<key />
-			<unsigned />
-		</field>
-		<field name="tumblrUsername" type="C" size="255">
-			<descr></descr>
-			<default value="none" />
-		</field>
-		<field name="blockTitle" type="C" size="255">
-			<descr></descr>
-			<default value="Tumblr Blog" />
-		</field>
-		<field name="postsPerPage" type="I2">
-			<unsigned />
-			<notnull />
-			<default value="5" />
-		</field>
-		<field name="charsPerEntry" type="I2">
-			<unsigned />
-			<notnull />
-			<default value="0" />
-		</field>
-		<field name="preferedImageWidth" type="I2">
-			<unsigned />
-			<notnull />
-			<default value="500" />
-		</field>
-		<field name="usePagination" type="I1">
-			<unsigned />
-			<notnull />
-			<default value="1" />
-		</field>
-		<field name="hideTitles" type="I1">
-			<unsigned />
-			<notnull />
-			<default value="0" />
-		</field>
-		<field name="dateFormat" type="C" size="255">
-			<descr></descr>
-			<default value="jS F Y \a\t H:i" />
-		</field>
-		<field name="entryURL" type="C" size="255">
-			<descr></descr>
-			<default value="" />
-		</field>
-	</table>
+    <table name="btTumblrFeed">
+        <field name="bID" type="I">
+            <key/>
+            <unsigned/>
+        </field>
+        <field name="tumblrUsername" type="C" size="255">
+            <descr/>
+            <default value="none"/>
+        </field>
+        <field name="blockTitle" type="C" size="255">
+            <descr/>
+            <default value="Tumblr Blog"/>
+        </field>
+        <field name="postsPerPage" type="I2">
+            <unsigned/>
+            <notnull/>
+            <default value="5"/>
+        </field>
+        <field name="charsPerEntry" type="I2">
+            <unsigned/>
+            <notnull/>
+            <default value="0"/>
+        </field>
+        <field name="preferedImageWidth" type="I2">
+            <unsigned/>
+            <notnull/>
+            <default value="500"/>
+        </field>
+        <field name="usePagination" type="I1">
+            <unsigned/>
+            <notnull/>
+            <default value="1"/>
+        </field>
+        <field name="hideTitles" type="I1">
+            <unsigned/>
+            <notnull/>
+            <default value="0"/>
+        </field>
+        <field name="dateFormat" type="C" size="255">
+            <descr/>
+            <default value="jS F Y \a\t H:i"/>
+        </field>
+        <field name="entryURL" type="C" size="255">
+            <descr/>
+            <default value=""/>
+        </field>
+    </table>
 </schema>

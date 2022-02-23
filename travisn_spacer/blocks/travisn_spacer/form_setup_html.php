@@ -1,4 +1,5 @@
-<?php      
+<?php /** @noinspection PhpUndefinedFunctionInspection */
+/** @noinspection PhpUndefinedVariableInspection */
 /*
  * tnSpacer Package written by Tavis Nickels (c) 2009.
  *
@@ -15,25 +16,36 @@
  *
  */
 
-defined('C5_EXECUTE') or die(_("Access Denied.")); 
+defined('C5_EXECUTE') or die(_("Access Denied."));
 ?>
 
 <style>
-table#tnSpacerSetup th {font-weight: bold; text-style: normal; padding-right: 8px;
-    white-space: nowrap; vertical-align:top ; padding-bottom:8px
-}
-table#tnSpacerSetup td{ font-size:12px; vertical-align:top; padding-bottom:8px;}
-</style> 
+    table#tnSpacerSetup th {
+        font-weight: bold;
+        text-style: normal;
+        padding-right: 8px;
+        white-space: nowrap;
+        vertical-align: top;
+        padding-bottom: 8px
+    }
 
-<table id="tnSpacerSetup" style="width:100%"> 
-	<tr>
-		<th><?php   echo t('Spacer Height:')?></th>
-		<td>
-			<input type="text" style="width:250px" name="spacerHeight" id="spacerHeight"
-                   value="<?php   echo  $spObj->spacerHeight ?>"/>
-		</td>
-	</tr>
+    table#tnSpacerSetup td {
+        font-size: 12px;
+        vertical-align: top;
+        padding-bottom: 8px;
+    }
+</style>
+
+<table id="tnSpacerSetup" style="width:100%">
+    <tr>
+        <th><?php echo t('Spacer Height:') ?></th>
+        <td>
+            <label for="spacerHeight"></label>
+            <input type="text" style="width:250px" name="spacerHeight" id="spacerHeight"
+                                                     value="<?php echo $spObj->spacerHeight ?>"/>
+        </td>
+    </tr>
 </table>
 <div class="ccm-field" style="margin-bottom:3px; margin-top:4px;">
-	<?php   echo t('Enter the height of the spacer. You can enter the units, or px will be used by default.')?>
+    <?php echo t('Enter the height of the spacer. You can enter the units, or px will be used by default.') ?>
 </div>

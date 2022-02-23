@@ -1,13 +1,74 @@
-.email_list_signup_success_inblock { padding: 5px; background-color: #CCFFCC; border: 1px solid green; color: black; } /* Successful signup confirmation message (when displayed in block) */
-.email_list_signup_error_inblock { background-color: #FF9999; border: 1px solid red; color: red; } /* Failed signup error message header (when displayed in block) */
-.email_list_signup_error_inblock ul.error { list-style: disc inside; padding: 5px; margin: 0; color: red; font-weight: bold; } /* Failed signup error message items (when displayed in block) */
+.email_list_signup_success_inblock {
+    padding: 5px;
+    background-color: #CCFFCC;
+    border: 1px solid green;
+    color: black;
+}
 
-.email_list_signup_success { width: 100%; padding: 5px 0 5px 10px; background-color: #CCFFCC; border: 1px solid green; color: black; } /* Successful signup confirmation message box (when displayed outside of block) */
-.email_list_signup_error { width: 100%; padding: 5px 0 0 10px; background-color: #FF9999; border: 1px solid red; color: red; } /* Failed signup error message box (when displayed outside of block) */
-.email_list_signup_error ul.error { list-style: disc inside; padding: 5px 0; color: red; font-weight: bold; } /* Failed signup error message items (when displayed outside of block) */
+/* Successful signup confirmation message (when displayed in block) */
+.email_list_signup_error_inblock {
+    background-color: #FF9999;
+    border: 1px solid red;
+    color: red;
+}
 
-.email_list_signup_container { } /* wrapper around block */
-.email_list_signup_container label { } /* form label */
-.email_list_signup_container input.ccm-input-text { } /* form textbox */
-.email_list_signup_container input.ccm-input-submit { } /* form submit button */
-.email_list_signup_container .in-field-label { color: #cdcdcd; font-style: italic; } /* greyed-out label inside the textbox (disappears when user clicks in textfield) */
+/* Failed signup error message header (when displayed in block) */
+.email_list_signup_error_inblock ul.error {
+    list-style: disc inside;
+    padding: 5px;
+    margin: 0;
+    color: red;
+    font-weight: bold;
+}
+
+/* Failed signup error message items (when displayed in block) */
+
+.email_list_signup_success {
+    width: 100%;
+    padding: 5px 0 5px 10px;
+    background-color: #CCFFCC;
+    border: 1px solid green;
+    color: black;
+}
+
+/* Successful signup confirmation message box (when displayed outside of block) */
+.email_list_signup_error {
+    width: 100%;
+    padding: 5px 0 0 10px;
+    background-color: #FF9999;
+    border: 1px solid red;
+    color: red;
+}
+
+/* Failed signup error message box (when displayed outside of block) */
+.email_list_signup_error ul.error {
+    list-style: disc inside;
+    padding: 5px 0;
+    color: red;
+    font-weight: bold;
+}
+
+/* Failed signup error message items (when displayed outside of block) */
+
+.email_list_signup_container {
+}
+
+/* wrapper around block */
+.email_list_signup_container label {
+}
+
+/* form label */
+.email_list_signup_container input.ccm-input-text {
+}
+
+/* form textbox */
+.email_list_signup_container input.ccm-input-submit {
+}
+
+/* form submit button */
+.email_list_signup_container .in-field-label {
+    color: #cdcdcd;
+    font-style: italic;
+}
+
+/* greyed-out label inside the textbox (disappears when user clicks in textfield) */

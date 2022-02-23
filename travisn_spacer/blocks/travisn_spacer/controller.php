@@ -1,7 +1,13 @@
-<?php
+<?php /** @noinspection PhpUnused */
+/** @noinspection PhpUndefinedFunctionInspection */
+/** @noinspection AutoloadingIssuesInspection */
+/** @noinspection PhpUndefinedClassInspection */
+
+/** @noinspection PhpUndefinedNamespaceInspection */
 
 namespace Concrete\Package\TravisnSpacer\Block\TravisnSpacer;
-use \Concrete\Core\Block\BlockController;
+
+use Concrete\Core\Block\BlockController;
 use UserInfo;
 use Loader;
 use Config;
@@ -26,32 +32,41 @@ use View;
 
 defined('C5_EXECUTE') or die(_("Access Denied."));
 
-class Controller extends BlockController {
+/**
+ * @method addHeaderItem($css)
+ */
+class Controller extends BlockController
+{
 #class TravisnSpacerBlockController extends BlockController {
 
-	protected $btTable = 'btTravisnSpacer';
-	protected $btInterfaceWidth = "400";
-	protected $btInterfaceHeight = "90"; 
+    protected $btTable           = 'btTravisnSpacer';
+    protected $btInterfaceWidth  = "400";
+    protected $btInterfaceHeight = "90";
 
-	public function getBlockTypeDescription() {
-		return t("Add spacers to your webpage without editing code.");
-	}
-		
-	public function getBlockTypeName() {
-		return t("tnSpacer");
-	}
-	
-	function save($data) { 
-		$args['spacerHeight'] = isset($data['spacerHeight']) ? str_replace(' ', '', $data['spacerHeight']) : '0';
-		parent::save($args);
-	}		
-	
-	public function delete() {
-		parent::delete();
-	}
-	
-	public function on_page_view() {
-		$html = Loader::helper('html');
-		$this->addHeaderItem($html->css('ccm.tnspacer.css', 'travisn_spacer'));
-	}
+    public function getBlockTypeDescription()
+    {
+        return t("Add spacers to your webpage without editing code.");
+    }
+
+    public function getBlockTypeName()
+    {
+        return t("tnSpacer");
+    }
+
+    public function save($data)
+    {
+        $args['spacerHeight'] = isset($data['spacerHeight']) ? str_replace(' ', '', $data['spacerHeight']) : '0';
+        parent::save($args);
+    }
+
+    public function delete()
+    {
+        parent::delete();
+    }
+
+    public function on_page_view()
+    {
+        $html = Loader::helper('html');
+        $this->addHeaderItem($html->css('ccm.tnspacer.css', 'travisn_spacer'));
+    }
 }

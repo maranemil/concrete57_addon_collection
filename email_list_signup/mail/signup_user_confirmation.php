@@ -1,4 +1,4 @@
-<?php  defined('C5_EXECUTE') or die(_("Access Denied."));
+<?php defined('C5_EXECUTE') or die(_("Access Denied."));
 
 $body = t("You (or someone pretending to be you) recently signed up for the %s Mailing List.
 To confirm your subscription, click the link below:
